@@ -1,0 +1,41 @@
+name: jfrogcli
+description: Jfrogcli
+inputs:
+  version:
+    description: "JFrog CLI Version"
+    default: "1.46.4"
+    required: false
+  build-name:
+    description: "build name"
+    required: false
+  build-number:
+    description: "Build Number"
+    required: false
+  build-type:
+    description: "action to be taken"
+    required: true
+  jfrog-project:
+    description: "action to be taken"
+    required: false
+  docker-repo:
+    description: "action to be taken"
+    required: false
+  docker-image:
+    description: "action to be taken"
+    required: false
+  docker-image-tag:
+    description: "action to be taken"
+    required: false
+  build-fail-onscan:
+    description: "action to be taken"
+    required: false
+  promote-to-repo:
+    description: "action to be taken"
+    required: false
+  promote-source-repo:
+    description: "action to be taken"
+    required: false
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
