@@ -36,4 +36,4 @@ with input build-type as docker-build, action collects environment variables for
 
 Usage
 
-  ![image](https://user-images.githubusercontent.com/31221465/140873674-890398f4-be52-46e9-bc6a-5fa13688889f.png)
+  <img width="1069" alt="Screen Shot 2021-12-01 at 8 36 13 AM" src="https://user-images.githubusercontent.com/31221465/144164741-62694f78-b4dd-403e-9ca2-d06afbd5a031.png">
