@@ -7,7 +7,7 @@ Follow the below steps to create the JF_ARTIFACTORY secret and save as part GitH
   3.	Export the details of the Artifactory server you configured, using the server ID you chose. Do this by running jfrog c export <SERVER ID>.
   4.	Copy the generated token to the clipboard and save it as a secret on GitHub.
   
-  ![jfrog](https://user-images.githubusercontent.com/31221465/144164078-c3cb5087-77e6-4884-8033-03c2b709d89b.png)
+  example: https://github.com/marketplace/actions/setup-jfrog-cli
 
 Once the secret is saved, we can use the jfrogcli action as below.
   
