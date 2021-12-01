@@ -37,3 +37,10 @@ with input build-type as docker-build, action collects environment variables for
 Usage
 
   <img width="1069" alt="Screen Shot 2021-12-01 at 8 36 13 AM" src="https://user-images.githubusercontent.com/31221465/144164741-62694f78-b4dd-403e-9ca2-d06afbd5a031.png">
+  
+2. docker-promote
+with input build-type as docker-promote, action promote the image from one lifecycle repository to another lifecycle repository.
+  
+Usage:
+  
+ <img width="603" alt="Screen Shot 2021-12-01 at 9 02 02 AM" src="https://user-images.githubusercontent.com/31221465/144167395-5d2d313b-e3b3-460b-a478-c868ebec1853.png">
