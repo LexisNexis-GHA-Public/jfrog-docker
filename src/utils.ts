@@ -73,6 +73,13 @@ export class Utils {
         "--fail=" + core.getInput(Utils.BUILD_FAIL_ONSCAN),
       ];
       res = await exec("jfrog", args);
+      res = await exec("sleep 60");
+      args = [
+        "rt",
+        "build-scan",
+        "--fail=" + core.getInput(Utils.BUILD_FAIL_ONSCAN),
+      ];
+      res = await exec("jfrog", args);
     }
     if (core.getInput(Utils.BUILD_TYPE) == "promote-docker") {
       args = [
