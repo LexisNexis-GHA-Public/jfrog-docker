@@ -69,15 +69,13 @@ export class Utils {
 
       args = [
         "rt",
-        "build-scan",
-        "--fail=" + core.getInput(Utils.BUILD_FAIL_ONSCAN),
+        "build-scan"
       ];
       res = await exec("jfrog", args);
-      res = await exec("sleep 60");
+      await sleep(ms(60000));
       args = [
         "rt",
-        "build-scan",
-        "--fail=" + core.getInput(Utils.BUILD_FAIL_ONSCAN),
+        "build-scan"
       ];
       res = await exec("jfrog", args);
     }
